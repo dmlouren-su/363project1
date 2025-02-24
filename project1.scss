@@ -1,0 +1,37 @@
+@import "_Color";
+@import "_Base";
+@import "_Blockquote";
+@import "_Button";
+@import "_Code";
+@import "_Divider";
+@import "_Form";
+@import "_Grid";
+@import "_Link";
+@import "_List";
+@import "_Spacing";
+@import "_Table";
+@import "_Typography";
+@import "_Image";
+@import "_Utility";
+
+header {
+    background-color: $color-secondary; padding: 10px;
+    nav {padding-top: 15px;}
+    h2 {color: $color-tertiary; padding-top: 10px;}
+}
+
+.large {
+    margin: 20px 30px 20px 30px; text-align: center;
+}
+
+.major {margin: 20px 30px 20px 30px; text-align: center;}
+
+.products {display: flex; justify-content: center; flex-wrap: wrap;}
+
+.productlist
+{padding: 20px;}
+
+.butt {text-align: center;}
+
+blockquote{text-align: center;}
+
